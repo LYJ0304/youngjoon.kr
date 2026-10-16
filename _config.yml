@@ -1,9 +1,7 @@
-# GitHub Pages 배포 전에 실제 주소를 입력하세요.
-# 개인 사이트: url: "https://USERNAME.github.io", baseurl: ""
-# 프로젝트 사이트: url: "https://USERNAME.github.io", baseurl: "/cv"
-url: ""
-baseurl: ""
-repository: "USERNAME/cv"
+# GitHub Pages 주소
+url: "https://lyj0304.github.io"
+baseurl: "/youngjoon.kr"
+repository: "LYJ0304/youngjoon.kr"
 
 # 공식 Modern Resume Theme의 버전을 고정해 사용합니다.
 remote_theme: sproogen/modern-resume-theme@8901c8bcd4713b5a1fafcf0cccb130b840a8519d
