@@ -1,6 +1,6 @@
 # GitHub Pages 주소
-url: "https://lyj0304.github.io"
-baseurl: "/youngjoon.kr"
+url: "https://youngjoon.kr"
+baseurl: ""
 repository: "LYJ0304/youngjoon.kr"
 
 # 공식 Modern Resume Theme의 버전을 고정해 사용합니다.
