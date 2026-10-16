@@ -1,0 +1,83 @@
+# GitHub Pages 배포 전에 실제 주소를 입력하세요.
+# 개인 사이트: url: "https://USERNAME.github.io", baseurl: ""
+# 프로젝트 사이트: url: "https://USERNAME.github.io", baseurl: "/cv"
+url: ""
+baseurl: ""
+repository: "USERNAME/cv"
+
+# 공식 Modern Resume Theme의 버전을 고정해 사용합니다.
+remote_theme: sproogen/modern-resume-theme@8901c8bcd4713b5a1fafcf0cccb130b840a8519d
+version: 2
+lang: ko
+
+# 본인 정보로 교체하세요. 선택 항목은 주석을 해제하면 표시됩니다.
+name: "이름을 입력하세요"
+title: "직무 또는 전문 분야"
+# email: "you@example.com"
+# phone: "010-0000-0000"
+# website: "https://example.com"
+# github_username: "USERNAME"
+# linkedin_username: "USERNAME"
+
+# false: 기기 설정에 따라 다크 모드 적용 / true: 항상 다크 / never: 항상 밝게
+darkmode: false
+
+about_title: "소개"
+# 사진을 추가하려면 images/profile.jpg 파일을 넣고 아래 주석을 해제하세요.
+# about_profile_image: "images/profile.jpg"
+about_content: |
+  자기소개를 입력하세요.
+
+content:
+  - title: "경력"
+    layout: list
+    content:
+      - layout: left
+        title: "회사명"
+        sub_title: "직무 / 직책"
+        caption: "재직 기간"
+        description: |
+          담당 업무와 주요 성과를 입력하세요.
+
+  - title: "프로젝트"
+    layout: list
+    content:
+      - layout: left
+        title: "프로젝트명"
+        caption: "진행 기간"
+        # link: "https://github.com/USERNAME/PROJECT"
+        # link_text: "GitHub"
+        description: |
+          프로젝트 소개, 담당 역할, 사용 기술과 성과를 입력하세요.
+
+  - title: "학력"
+    layout: list
+    content:
+      - layout: left
+        title: "학교명"
+        sub_title: "전공 / 학위"
+        caption: "재학 기간"
+        description: |
+          학력 관련 내용을 입력하세요.
+
+  - title: "기술"
+    layout: text
+    content: |
+      보유 기술을 입력하세요.
+
+footer_show_references: false
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-seo-tag
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - vendor/
