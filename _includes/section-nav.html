@@ -1,0 +1,6 @@
+<nav class="container section-nav no-print" aria-label="섹션 바로가기">
+  <a href="#{{ site.about_title | slugify | default: 'about-me' }}">{{ site.about_title | default: 'About Me' | escape }}</a>
+  {% for section in site.content %}
+    <a href="#{{ section.title | slugify }}">{{ section.title | escape }}</a>
+  {% endfor %}
+</nav>

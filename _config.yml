@@ -27,7 +27,7 @@ about_content: |
   자기소개를 입력하세요.
 
 content:
-  - title: "경력"
+  - title: "Work Experiences"
     layout: list
     content:
       - layout: left
@@ -37,7 +37,7 @@ content:
         description: |
           담당 업무와 주요 성과를 입력하세요.
 
-  - title: "프로젝트"
+  - title: "Projects"
     layout: list
     content:
       - layout: left
@@ -48,7 +48,7 @@ content:
         description: |
           프로젝트 소개, 담당 역할, 사용 기술과 성과를 입력하세요.
 
-  - title: "학력"
+  - title: "Education"
     layout: list
     content:
       - layout: left
@@ -58,14 +58,15 @@ content:
         description: |
           학력 관련 내용을 입력하세요.
 
-  - title: "기술"
+  - title: "Technical Skills"
     layout: text
     content: |
-      <img src="https://skillicons.dev/icons?i=java,py,spring,fastapi" alt="Java, Python, Spring Boot, FastAPI" height="48">
-  - title: "수상실적"
+      <mark>Java</mark> <mark>Spring Boot</mark> <mark>Python</mark> <mark>FastAPI</mark>
+
+  - title: "Awards"
     layout: list
     content:
-      - layout: left
+      - layout: top
         title: "2025학년도 2차 CNU 학습동아리"
         sub_title: "대상 · 충남대학교 총장상"
         caption: "2025.11"
@@ -77,7 +78,7 @@ content:
         #   - 본인의 역할과 주요 기여를 입력하세요.
         #   - 참가 규모나 평가 결과 등 확인 가능한 성과를 입력하세요.
 
-      - layout: left
+      - layout: top
         title: "COSS-SCOUT 첨단기술 창업경진대회"
         sub_title: "장려상 · 한국청년기업정신재단 이사장상"
         caption: "2025.11"
@@ -89,7 +90,7 @@ content:
         #   - 본인의 역할과 주요 기여를 입력하세요.
         #   - 참가 규모나 평가 결과 등 확인 가능한 성과를 입력하세요.
 
-      - layout: left
+      - layout: top
         title: "소외된 이웃과 함께하는 창의설계 경진대회"
         sub_title: "총장상 · 한동대학교 총장상"
         caption: "2025.10"
@@ -101,7 +102,7 @@ content:
         #   - 본인의 역할과 주요 기여를 입력하세요.
         #   - 참가 규모나 평가 결과 등 확인 가능한 성과를 입력하세요.
 
-      - layout: left
+      - layout: top
         title: "2025 CNU 생성형 인공지능 챌린지"
         sub_title: "은상 · 충남대학교 총장상"
         caption: "2025.09"
@@ -113,7 +114,7 @@ content:
         #   - 본인의 역할과 주요 기여를 입력하세요.
         #   - 참가 규모나 평가 결과 등 확인 가능한 성과를 입력하세요.
 
-      - layout: left
+      - layout: top
         title: "청소년 데이터 분석&활용 경진대회"
         sub_title: "최우수상 · 한국청소년활동진흥원 이사장상"
         caption: "2021.12"
