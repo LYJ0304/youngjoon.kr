@@ -61,7 +61,13 @@ content:
   - title: "Technical Skills"
     layout: text
     content: |
-      <mark>Java</mark> <mark>Spring Boot</mark> <mark>Python</mark> <mark>FastAPI</mark>
+      **Languages**
+
+      <mark>Java</mark> <mark>Python</mark>
+
+      **Frameworks**
+
+      <mark>Spring Boot</mark> <mark>FastAPI</mark>
 
   - title: "Awards"
     layout: list
