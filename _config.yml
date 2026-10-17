@@ -18,7 +18,7 @@ github_username: "LYJ0304"
 linkedin_username: "영준-이-894478358"
 
 # false: 기기 설정에 따라 다크 모드 적용 / true: 항상 다크 / never: 항상 밝게
-darkmode: false
+darkmode: never
 
 about_title: "소개"
 # 사진을 추가하려면 images/profile.jpg 파일을 넣고 아래 주석을 해제하세요.
