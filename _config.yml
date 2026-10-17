@@ -10,12 +10,12 @@ lang: ko
 
 # 본인 정보로 교체하세요. 선택 항목은 주석을 해제하면 표시됩니다.
 name: "이영준"
-title: "Software engingeer"
+title: "Software Engineer"
 email: "omlmg0304@naver.com"
 phone: "010-2515-8901"
 # website: "https://example.com"
 github_username: "LYJ0304"
-# linkedin_username: "USERNAME"
+linkedin_username: "영준-이-894478358"
 
 # false: 기기 설정에 따라 다크 모드 적용 / true: 항상 다크 / never: 항상 밝게
 darkmode: false
@@ -31,9 +31,9 @@ content:
     layout: list
     content:
       - layout: left
-        title: "회사명"
-        sub_title: "직무 / 직책"
-        caption: "재직 기간"
+        title: "Republic of Korea Army"
+        sub_title: "Software Engineer / Software Development Soldier"
+        caption: "2026.04 ~ 현재"
         description: |
           담당 업무와 주요 성과를 입력하세요.
 
@@ -41,10 +41,10 @@ content:
     layout: list
     content:
       - layout: left
-        title: "프로젝트명"
-        caption: "진행 기간"
-        # link: "https://github.com/USERNAME/PROJECT"
-        # link_text: "GitHub"
+        title: "Grow Together"
+        caption: "2026.10 ~ 현재"
+        link: "https://github.com/LYJ0304/grow-together"
+        link_text: "GitHub"
         description: |
           프로젝트 소개, 담당 역할, 사용 기술과 성과를 입력하세요.
 
@@ -61,7 +61,7 @@ content:
   - title: "기술"
     layout: text
     content: |
-      java, spring boot, python, fastapi
+      <img src="https://skillicons.dev/icons?i=java,py,spring,fastapi" alt="Java, Python, Spring Boot, FastAPI" height="48">
 
 footer_show_references: false
 
