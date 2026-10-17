@@ -9,12 +9,12 @@ version: 2
 lang: ko
 
 # 본인 정보로 교체하세요. 선택 항목은 주석을 해제하면 표시됩니다.
-name: "이름을 입력하세요"
-title: "직무 또는 전문 분야"
-# email: "you@example.com"
-# phone: "010-0000-0000"
+name: "이영준"
+title: "Software engingeer"
+email: "omlmg0304@naver.com"
+phone: "010-2515-8901"
 # website: "https://example.com"
-# github_username: "USERNAME"
+github_username: "LYJ0304"
 # linkedin_username: "USERNAME"
 
 # false: 기기 설정에 따라 다크 모드 적용 / true: 항상 다크 / never: 항상 밝게
@@ -52,16 +52,16 @@ content:
     layout: list
     content:
       - layout: left
-        title: "학교명"
-        sub_title: "전공 / 학위"
-        caption: "재학 기간"
+        title: "충남대학교"
+        sub_title: "컴퓨터융합학부"
+        caption: "2024.03 ~ 재학중"
         description: |
           학력 관련 내용을 입력하세요.
 
   - title: "기술"
     layout: text
     content: |
-      보유 기술을 입력하세요.
+      java, spring boot, python, fastapi
 
 footer_show_references: false
 
