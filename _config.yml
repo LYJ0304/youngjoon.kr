@@ -62,6 +62,70 @@ content:
     layout: text
     content: |
       <img src="https://skillicons.dev/icons?i=java,py,spring,fastapi" alt="Java, Python, Spring Boot, FastAPI" height="48">
+  - title: "수상실적"
+    layout: list
+    content:
+      - layout: left
+        title: "2025학년도 2차 CNU 학습동아리"
+        sub_title: "대상 · 충남대학교 총장상"
+        caption: "2025.11"
+        # 수상 결과나 상장 링크가 있으면 아래 주석을 해제하세요.
+        # link: "https://example.com/award"
+        # link_text: "수상 결과"
+        # description: |
+        #   - 수상한 프로젝트나 작품을 소개하세요.
+        #   - 본인의 역할과 주요 기여를 입력하세요.
+        #   - 참가 규모나 평가 결과 등 확인 가능한 성과를 입력하세요.
+
+      - layout: left
+        title: "COSS-SCOUT 첨단기술 창업경진대회"
+        sub_title: "장려상 · 한국청년기업정신재단 이사장상"
+        caption: "2025.11"
+        # 수상 결과나 상장 링크가 있으면 아래 주석을 해제하세요.
+        # link: "https://example.com/award"
+        # link_text: "수상 결과"
+        # description: |
+        #   - 수상한 프로젝트나 작품을 소개하세요.
+        #   - 본인의 역할과 주요 기여를 입력하세요.
+        #   - 참가 규모나 평가 결과 등 확인 가능한 성과를 입력하세요.
+
+      - layout: left
+        title: "소외된 이웃과 함께하는 창의설계 경진대회"
+        sub_title: "총장상 · 한동대학교 총장상"
+        caption: "2025.10"
+        # 수상 결과나 상장 링크가 있으면 아래 주석을 해제하세요.
+        # link: "https://example.com/award"
+        # link_text: "수상 결과"
+        # description: |
+        #   - 수상한 프로젝트나 작품을 소개하세요.
+        #   - 본인의 역할과 주요 기여를 입력하세요.
+        #   - 참가 규모나 평가 결과 등 확인 가능한 성과를 입력하세요.
+
+      - layout: left
+        title: "2025 CNU 생성형 인공지능 챌린지"
+        sub_title: "은상 · 충남대학교 총장상"
+        caption: "2025.09"
+        # 수상 결과나 상장 링크가 있으면 아래 주석을 해제하세요.
+        # link: "https://example.com/award"
+        # link_text: "수상 결과"
+        # description: |
+        #   - 수상한 프로젝트나 작품을 소개하세요.
+        #   - 본인의 역할과 주요 기여를 입력하세요.
+        #   - 참가 규모나 평가 결과 등 확인 가능한 성과를 입력하세요.
+
+      - layout: left
+        title: "청소년 데이터 분석&활용 경진대회"
+        sub_title: "최우수상 · 한국청소년활동진흥원 이사장상"
+        caption: "2021.12"
+        # 수상 결과나 상장 링크가 있으면 아래 주석을 해제하세요.
+        # link: "https://example.com/award"
+        # link_text: "수상 결과"
+        # description: |
+        #   - 수상한 프로젝트나 작품을 소개하세요.
+        #   - 본인의 역할과 주요 기여를 입력하세요.
+        #   - 참가 규모나 평가 결과 등 확인 가능한 성과를 입력하세요.
+
+
 
 footer_show_references: false
 
