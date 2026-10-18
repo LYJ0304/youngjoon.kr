@@ -53,6 +53,31 @@
   background: transparent;
   color: inherit;
   cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+  transition: background-color 180ms ease, color 180ms ease;
+
+  &:hover,
+  &:focus {
+    background-color: transparent;
+    color: inherit;
+  }
+
+  &:focus-visible {
+    outline: 2px solid #333;
+    outline-offset: 3px;
+  }
+
+  &[aria-expanded="true"] {
+    background-color: #333;
+    border-color: #333;
+    color: #fff;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .section-nav-toggle {
+    transition: none;
+  }
 }
 
 .section-nav-links {
