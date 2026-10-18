@@ -1,9 +1,15 @@
 <nav class="container section-nav no-print" aria-label="섹션 바로가기">
   <span class="section-nav-name"><strong>이영준</strong> Lee Young Joon</span>
-  <div class="section-nav-links">
+  <button class="section-nav-toggle" type="button" aria-controls="section-nav-links" aria-expanded="false" aria-label="메뉴 열기">
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+      <path d="M3 6h18M3 12h18M3 18h18" />
+    </svg>
+  </button>
+  <div class="section-nav-links" id="section-nav-links">
     <a href="#{{ site.about_title | slugify | default: 'about-me' }}">{{ site.about_title | default: 'About Me' | escape }}</a>
     {% for section in site.content %}
       <a href="#{{ section.title | slugify }}">{{ section.title | escape }}</a>
     {% endfor %}
   </div>
 </nav>
+<script src="{{ '/assets/js/section-nav.js' | relative_url }}" defer></script>
