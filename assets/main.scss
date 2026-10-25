@@ -61,21 +61,9 @@ a:focus-visible, button:focus-visible {
 }
 .section-nav-name {
   flex-shrink: 0;
-  gap: 10px;
   color: var(--ink);
   strong { font-size: 1.5rem; }
 }
-.nav-monogram {
-  display: grid;
-  place-items: center;
-  width: 32px;
-  height: 32px;
-  border-radius: 10px;
-  background: var(--accent);
-  color: #fff;
-  font-size: 1.4rem;
-}
-.nav-label { color: var(--muted); font-size: 1.1rem; }
 .section-nav-links {
   display: flex;
   flex-wrap: wrap;
@@ -105,41 +93,24 @@ a:focus-visible, button:focus-visible {
   padding: 64px 0 56px;
   border-bottom: 1px solid var(--line);
 }
-.eyebrow {
-  margin: 0 0 20px;
-  color: var(--accent);
-  font-size: 1.1rem;
-  font-weight: 700;
-  letter-spacing: .16em;
-  text-transform: uppercase;
-}
 .profile-heading h1 {
   margin: 0 0 16px;
   font-size: clamp(4.8rem, 6vw, 7.2rem);
   font-weight: 700;
   letter-spacing: -.055em;
-  span { color: var(--accent); }
 }
 .profile-role { margin-bottom: 24px; color: var(--muted); font-size: 2rem; }
 .profile-links {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 24px;
   a {
     display: inline-flex;
     align-items: center;
-    justify-content: space-between;
-    gap: 22px;
+    gap: 8px;
     min-height: 44px;
-    padding: 9px 16px;
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    background: var(--surface);
-    color: var(--ink);
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     font-weight: 500;
-    text-decoration: none;
-    &:hover { border-color: var(--accent); color: var(--accent); }
   }
 }
 .profile-contact {
@@ -147,7 +118,6 @@ a:focus-visible, button:focus-visible {
   border: 1px solid var(--line);
   border-radius: 20px;
   background: var(--tint);
-  .eyebrow { margin-bottom: 12px; }
   a {
     display: block;
     padding: 12px 0;
@@ -158,14 +128,11 @@ a:focus-visible, button:focus-visible {
     &:hover { text-decoration: underline; }
   }
 }
+.contact-heading { margin-bottom: 8px; color: var(--muted); font-size: 1.3rem; font-weight: 500; }
 .contact-label { display: block; margin-bottom: 4px; color: var(--muted); font-size: 1.1rem; }
 
-.wrapper { counter-reset: section; }
 .page-content .container { margin-top: 48px; }
 .page-content h3 {
-  display: flex;
-  align-items: baseline;
-  gap: 14px;
   margin-bottom: 20px;
   padding: 0;
   border: 0;
@@ -174,14 +141,6 @@ a:focus-visible, button:focus-visible {
   font-weight: 600;
   letter-spacing: -.025em;
   text-align: left;
-  &::before {
-    counter-increment: section;
-    content: counter(section, decimal-leading-zero);
-    color: var(--accent);
-    font-size: 1.2rem;
-    font-weight: 500;
-    letter-spacing: 0;
-  }
 }
 .intro-container .row, .text-container > .row {
   margin: 0;
@@ -248,7 +207,6 @@ mark {
 }
 
 @media screen and (max-width: 1100px) {
-  .nav-label { display: none; }
   .section-nav-links { gap: 2px 14px; font-size: 1.2rem; }
 }
 @media screen and (max-width: 767px) {
@@ -262,7 +220,7 @@ mark {
   .profile-role { font-size: 1.8rem; }
   .profile-contact { padding: 20px 24px; border-radius: 16px; }
   .page-content .container { margin-top: 32px; }
-  .page-content h3 { gap: 10px; font-size: 2rem; }
+  .page-content h3 { font-size: 2rem; }
   .intro-container .row, .text-container > .row, .layout { padding: 22px; }
   .layout { flex-direction: column; gap: 18px; }
   .layout .details { flex-basis: auto; text-align: left !important; }
@@ -283,7 +241,7 @@ mark {
   .profile-header { padding: 0 0 20px; gap: 24px; }
   .profile-heading h1 { font-size: 3.6rem; }
   .profile-contact { padding: 12px; }
-  .profile-links a { padding: 4px 10px; min-height: 0; }
+  .profile-links a { min-height: 0; }
   .page-content .container { margin-top: 24px; }
   .page-content h3 { break-after: avoid; }
   .layout, .intro-container .row, .text-container > .row { padding: 16px; border-radius: 0; }

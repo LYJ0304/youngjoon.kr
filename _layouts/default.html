@@ -20,7 +20,7 @@
 
       {%- if site.version == 2 -%}
         {% for section in site.content %}
-          <section class="container resume-section {{ section.layout }}-container section-{{ section.title | slugify }}" aria-labelledby="{{ section.title | slugify }}">
+          <section class="container {{ section.layout }}-container section-{{ section.title | slugify }}" aria-labelledby="{{ section.title | slugify }}">
             <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
             {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
           </section>

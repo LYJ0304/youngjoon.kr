@@ -1,7 +1,6 @@
 <header class="container profile-header">
   <div class="profile-heading">
-    <p class="eyebrow">Curriculum Vitae</p>
-    <h1>{{ site.name | escape }}<span aria-hidden="true">.</span></h1>
+    <h1>{{ site.name | escape }}</h1>
     <p class="profile-role">{{ site.title | escape }}</p>
     <div class="profile-links">
       {% if site.github_username %}<a href="https://github.com/{{ site.github_username | cgi_escape | escape }}">GitHub <span aria-hidden="true">↗</span></a>{% endif %}
@@ -10,9 +9,9 @@
     </div>
   </div>
   <div class="profile-contact">
-    <p class="eyebrow">Contact</p>
-    {% if site.email %}<a href="mailto:{{ site.email | escape }}"><span class="contact-label">{{ site.email_title | default: 'Email' | escape }}</span>{{ site.email | escape }} <span aria-hidden="true">↗</span></a>{% endif %}
-    {% if site.phone %}<a href="tel:{{ site.phone | remove: ' ' | remove: '-' | escape }}"><span class="contact-label">{{ site.phone_title | default: 'Phone' | escape }}</span>{{ site.phone | escape }} <span aria-hidden="true">↗</span></a>{% endif %}
-    {% if site.website %}<a href="{{ site.website | escape }}"><span class="contact-label">{{ site.website_title | default: 'Web' | escape }}</span>{{ site.website | escape }} <span aria-hidden="true">↗</span></a>{% endif %}
+    <p class="contact-heading">연락처</p>
+    {% if site.email %}<a href="mailto:{{ site.email | escape }}"><span class="contact-label">{{ site.email_title | default: 'Email' | escape }}</span>{{ site.email | escape }}</a>{% endif %}
+    {% if site.phone %}<a href="tel:{{ site.phone | remove: ' ' | remove: '-' | escape }}"><span class="contact-label">{{ site.phone_title | default: 'Phone' | escape }}</span>{{ site.phone | escape }}</a>{% endif %}
+    {% if site.website %}<a href="{{ site.website | escape }}"><span class="contact-label">{{ site.website_title | default: 'Web' | escape }}</span>{{ site.website | escape }}</a>{% endif %}
   </div>
 </header>
