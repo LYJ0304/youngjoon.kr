@@ -274,9 +274,11 @@ mark {
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
+@page { margin: 14mm; }
 @media print {
   :root { --page: #fff; --ink: #000; --muted: #333; --accent: #000; --line: #ccc; }
   html { scroll-padding-top: 0; }
+  #main-content { outline: none; }
   .container { width: 100%; max-width: none; }
   .profile-header { padding: 0 0 20px; gap: 24px; }
   .profile-heading h1 { font-size: 3.6rem; }
