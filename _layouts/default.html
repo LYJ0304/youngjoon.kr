@@ -5,10 +5,11 @@
 
 <body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
 
+  <a class="skip-link no-print" href="#main-content">본문 바로가기</a>
   {% include section-nav.html %}
   {%- include header.html -%}
 
-  <main class="page-content" aria-label="Content">
+  <main id="main-content" class="page-content" aria-label="이력서" tabindex="-1">
     <div class="wrapper">
 
       {%- if jekyll.environment == 'production' and site.gtm -%}
@@ -19,10 +20,10 @@
 
       {%- if site.version == 2 -%}
         {% for section in site.content %}
-          <div class="container {{ section.layout }}-container">
+          <section class="container {{ section.layout }}-container section-{{ section.title | slugify }}" aria-labelledby="{{ section.title | slugify }}">
             <h3 id="{{ section.title | slugify }}">{{ section.title }}</h3>
             {% include {{ section.layout | prepend: "section-" | append: ".html" }} content=section.content %}
-          </div>
+          </section>
         {% endfor %}
       {% else %}
         {%- include v1/default.html -%}
