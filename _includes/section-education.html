@@ -1,0 +1,9 @@
+{% for item in include.content %}
+  <div class="layout education-entry">
+    <div class="education-details">
+      <h4>{{ item.title | escape }}</h4>
+      {% if item.sub_title %}<p>{{ item.sub_title | escape }}</p>{% endif %}
+    </div>
+    {% if item.caption %}<p class="education-period">{{ item.caption | escape }}</p>{% endif %}
+  </div>
+{% endfor %}
