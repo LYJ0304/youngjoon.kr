@@ -3,6 +3,7 @@
     <h1>{{ site.name | escape }}</h1>
     <p class="profile-role">{{ site.title | escape }}</p>
     <div class="profile-links">
+      {% if site.email %}<a href="mailto:{{ site.email | escape }}">{{ site.email | escape }}</a>{% endif %}
       {% if site.github_username %}<a href="https://github.com/{{ site.github_username | cgi_escape | escape }}">GitHub <span aria-hidden="true">↗</span></a>{% endif %}
       {% if site.linkedin_username %}<a href="https://www.linkedin.com/in/{{ site.linkedin_username | cgi_escape | escape }}">LinkedIn <span aria-hidden="true">↗</span></a>{% endif %}
       {% for link in site.additional_links %}<a href="{{ link.url | escape }}">{{ link.title | escape }} <span aria-hidden="true">↗</span></a>{% endfor %}
