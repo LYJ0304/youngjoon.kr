@@ -50,14 +50,11 @@ content:
           프로젝트 소개, 담당 역할, 사용 기술과 성과를 입력하세요.
 
   - title: "Education"
-    layout: list
+    layout: education
     content:
-      - layout: left
-        title: "충남대학교"
+      - title: "충남대학교"
         sub_title: "컴퓨터융합학부"
         caption: "2024.03 ~ 재학중"
-        description: |
-          학력 관련 내용을 입력하세요.
 
   - title: "Technical Skills"
     layout: text

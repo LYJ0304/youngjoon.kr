@@ -250,3 +250,18 @@ mark {
   .section-awards .layout, .profile-header { break-inside: avoid; }
   .footer-container { margin-top: 24px; padding: 12px 0; }
 }
+
+.section-education .education-entry {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  gap: 12px 32px;
+  .education-details { min-width: 0; }
+  h4 { margin: 0 0 6px; font-size: 1.8rem; font-weight: 600; line-height: 1.5; }
+  p { margin: 0; font-size: 1.3rem; line-height: 1.7; }
+  .education-details p { color: var(--ink); font-weight: 500; }
+  .education-period { color: var(--muted); }
+}
+@media screen and (max-width: 767px) {
+  .section-education .education-entry { grid-template-columns: minmax(0, 1fr); gap: 8px; }
+}
